@@ -1,7 +1,6 @@
-https://www.astro.rug.nl/software/kapteyn/maputilstutorial.html
+## Code created by Martha Margarita López Gutiérrez ##
 
-Example: mu_overlayscuba.py - Overlay image with different world coordinate system
-
+#Example: mu_overlayscuba.py - Overlay image with different world coordinate system
 
 from kapteyn import maputils
 from matplotlib import pyplot as plt
@@ -32,5 +31,5 @@ baseim.interact_toolbarinfo()
 baseim.interact_imagecolors()
 
 plt.show()
-
-#guardar como Figure_A87_matplotlib.png
+# Save the plot
+#plt.savefig('Files/output/Figure_A87_matplotlib.png')
