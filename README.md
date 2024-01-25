@@ -5,5 +5,5 @@ Example:
 
 The output image in __Overlay_image.py__ code. *The overlay image of A87 cluster with different world coordinate system.*
 <p align="center">
-<img src="Files/output/Figure_A87_matplotlib.png" width="200">
+<img src="Files/output/Figure_A87_matplotlib.png" width="300">
 </p>
