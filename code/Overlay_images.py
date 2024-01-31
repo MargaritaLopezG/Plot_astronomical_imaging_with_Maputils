@@ -6,10 +6,9 @@ from kapteyn import maputils
 from matplotlib import pyplot as plt
 from matplotlib import cm
 
-file1="/home/hector/Documents/Doctorado/pruebas_python/pruebas_APLpy/fits/A87_gS_2.fits"
-file2="/home/hector/Documents/Doctorado/pruebas_python/pruebas_APLpy/fits/A87_mom0_gS_2.fits"
-Basefits = maputils.FITSimage(file1)
-Secondfits = maputils.FITSimage(file2)
+
+Basefits = maputils.FITSimage(Files/A87_gS_2.fits)
+Secondfits = maputils.FITSimage(Files/A87_mom0_gS_2.fits)
 Reprojfits = Secondfits.reproject_to(Basefits)
 
 fig = plt.figure()
